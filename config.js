@@ -4,7 +4,8 @@ var GAME = {
     height : 300
   },
   started : true,
-  level : 1
+  level : 1,
+  coins : [],
 };
 
 var SPACE_SHIP = {
