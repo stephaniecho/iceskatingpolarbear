@@ -46,15 +46,3 @@ function RenderBabies(context){
     context.drawImage(coinPic,GAME.coin[i].x,GAME.coin[i].y,20,20);
   }
 }
-
-function InitializeBabies() {
-  var canvas = document.getElementById('mainCanvas');
-  var context = canvas.getContext('2d');
-  context.scale(1,1);
-
-  for (var i = 0; i<GAME.coin.length; i++){
-       GAME.coin.splice(i,1);
-       i--;
-
-   }
-}

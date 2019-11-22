@@ -1,4 +1,5 @@
-
+var l1Theme = new Audio();
+l1Theme.src="Sounds/sleigh_ride.mp3";
 // Javascript Canvas Intro!
 
 /**
@@ -6,8 +7,7 @@
  *
  */
 function Start() {
-
-  // Initialize Spaceship
+  l1Theme.play();
+  addFish();
   draw();
-  InitializeBabies();
 }
