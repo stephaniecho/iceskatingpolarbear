@@ -2,6 +2,10 @@ var polarBear = new Image();
 polarBear.src="Images/spr_polarbear_temp.png";
 var polarBear2 = new Image();
 polarBear2.src="Images/spr_polarbear_temp2.png";
+var purpleBear = new Image();
+purpleBear.src="Images/purplebear1.png";
+var purpleBear2 = new Image();
+purpleBear2.src="Images/purplebear2.png";
 
 
 function drawPB1() {
@@ -52,8 +56,8 @@ function animatePB1() {
 }
 
 function drawPB2() {
-  if(PB2.direction==1) {ctx.drawImage(polarBear, PB2.x-60, PB2.y-45, 120, 90);}
-  else {ctx.drawImage(polarBear2, PB2.x-60, PB2.y-45, 120, 90);}
+  if(PB2.direction==1) {ctx.drawImage(purpleBear, PB2.x-60, PB2.y-45, 120, 90);}
+  else {ctx.drawImage(purpleBear2, PB2.x-60, PB2.y-45, 120, 90);}
 }
 
 function drawPB2FishCount() {
